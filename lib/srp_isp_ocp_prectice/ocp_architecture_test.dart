@@ -31,3 +31,8 @@ class AreaCalculator {
     return shape.calculateArea();
   }
 }
+
+main(){
+  AreaCalculator areaCalculator=AreaCalculator();
+  print(areaCalculator.calculateArea(Circle(5)));
+}
